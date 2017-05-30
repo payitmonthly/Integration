@@ -2,8 +2,32 @@
 
 PayItMonthly enables your business to offer your customer finance. 
 
-This guide shows you how to embed our simple integration within your website. 
+This guide shows you how to embed our simple integration within your website.
 
+## Support
+
+If you need to contact us for any reason you can email us at [support@payitmonthly.uk](mailto:support@payitmonthly.uk) or call us on 0333 212 3914.
+
+## Getting Started
+
+You need to opened a live account at [PayItMonthly](https://payitmonthly.uk). Once your account is live you can request your API key by emailing [support@payitmonthly.uk](mailto:support@payitmonthly.uk).
+
+## HTML Form Based Application
+
+```markdown
+<form action="https://payitmonthly.uk//" method="post"> 
+    <input type="hidden" name="identification_key" value="adfwt2894ahgBUDSFOHE8we9"/> 
+    <input type="hidden" name="goods_description" value="Photos - CD - Gold Package"/> 
+    <input type="hidden" name="goods_price" value="60000"/> 
+    <input type="hidden" name="finance_deposit_total" value="6000"/> 
+    <input type="hidden" name="test_or_live" value="test"/>
+    <input type="hidden" name="finance_max_duration" value="8"/>
+    <input type="hidden" name="finance_number_of_instalments" value="10"/>
+    <input type="hidden" name="finance_first_payment_date" value="20170720"/>
+    <input type="submit" value="Buy on Finance"/> 
+</form>
+
+```
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/payitmonthly/integration/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
