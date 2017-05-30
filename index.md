@@ -1,3 +1,9 @@
+# PayItMonthly Simple Integration
+
+PayItMonthly enables your business to offer your customer finance. 
+
+This guide shows you how to embed our simple integration within your website. 
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/payitmonthly/integration/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
