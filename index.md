@@ -32,7 +32,6 @@ You need to opened a live account at [PayItMonthly](https://payitmonthly.uk). On
     <input type="hidden" name="finance_first_payment_date" value="20170720"/>
     <input type="submit" value="Buy on Finance"/> 
 </form>
-
 ```
 
 ## Parameters
