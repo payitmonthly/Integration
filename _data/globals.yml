@@ -1,0 +1,5 @@
+api_test: "https://merchant-api-test.paybreak.com"
+api_live: "https://merchant-api.paybreak.com"
+api_prefix: "/v4"
+brandname: "afforditNOW"
+merchant: "merchant"
