@@ -65,6 +65,14 @@ customer_address_line_3 | Town | No | string |
 customer_address_line_4 | County | No | string | 
 customer_address_postcode | Postcode | No | string | 
 
+### Test Bank Details
+
+Please use the following bank details when completeing an agreement in test mode.
+
+Sort Code | Account Number
+----------|--------------------
+***20-00-00*** | ***55779911***
+
 ## Notifications
 
 Once the customer has entered into the agreement you will receive an email to the address associated with your account with a link so that you can see the details that have been provided.
