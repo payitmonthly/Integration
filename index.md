@@ -46,6 +46,7 @@ You need to opened a live account at [PayItMonthly](https://payitmonthly.uk). On
 Name | Description | Required | Type | Validation
 -----|-------------|----------|------|-----------
 identification_key | Public API key | Yes | string | 
+identification_version | Integration version number | Yes | string |
 test_or_live | This specifies which mode to operate the system in | Yes | string | test' or 'live'
 goods_description | Description of the goods/service that the customer is purchasing. This will be shown on the customers agreement | Yes | string | 
 goods_price | Price of the goods/service that the customer is purchasing in pence before the deposit is taken. The value of finance required is calculated automaticly (goods_price - finance_deposit_total) | Yes | int | Positive integer
