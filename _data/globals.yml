@@ -1,5 +1,5 @@
 api_test: "https://payitmonthly.uk/integration"
 api_live: "https://payitmonthly.uk/integration"
 api_prefix: "/v4"
-brandname: "PayItMonthly"
+brandname: "afforditNOW"
 merchant: "merchant"
