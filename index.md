@@ -1,8 +1,6 @@
 ---
 layout: "v1"
 toc: toc.html
-redirect_from:
-    - /v4/
 ---
 
 # PayItMonthly Simple Integration
@@ -17,7 +15,7 @@ If you need to contact us for any reason you can email us at [support@payitmonth
 
 ## Document History
 
-***v0.1.0*** (30/05/2017)
+***v1.0.0*** (30/05/2017)
 
 1. First integration launched
 
@@ -30,7 +28,7 @@ You need to opened a live account at [PayItMonthly](https://payitmonthly.uk). On
 ```markdown
 <form action="https://payitmonthly.uk/integration/" method="post"> 
     <input type="hidden" name="identification_key" value="adfwt2894ahgBUDSFOHE8we9"/>
-    <input type="hidden" name="identification_version" value="0.1.0"/>
+    <input type="hidden" name="identification_version" value="1.0.0"/>
     <input type="hidden" name="goods_description" value="Photos - CD - Gold Package"/> 
     <input type="hidden" name="goods_price" value="60000"/> 
     <input type="hidden" name="finance_deposit_total" value="6000"/> 
@@ -67,3 +65,7 @@ customer_address_line_2 | Street Address | No | string |
 customer_address_line_3 | Town | No | string | 
 customer_address_line_4 | County | No | string | 
 customer_address_postcode | Postcode | No | string | 
+
+## Notifications
+
+Once the customer has entered into the agreement you will receive an email to the address associated with your account with a link so that you can see the details that have been provided.
