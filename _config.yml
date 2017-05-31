@@ -1,1 +1,13 @@
-theme: jekyll-theme-minimal
+title: Retailer Integration Guide &laquo; afforditNOW
+baseurl: /retailer-integration-guide
+markdown: redcarpet
+redcarpet:
+    extensions: [with_toc_data, tables, fenced_code_blocks]
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
+gems:
+    - jekyll-redirect-from
