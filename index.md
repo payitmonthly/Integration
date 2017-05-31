@@ -1,7 +1,6 @@
 ---
 layout: "v4"
 toc: toc.html
-heading: Retailer Integration Guide
 redirect_from:
     - /v4/
 ---
