@@ -1,5 +1,5 @@
 title: Retailer Integration Guide &laquo; afforditNOW
-baseurl: /Integration
+baseurl: /integration
 markdown: redcarpet
 redcarpet:
     extensions: [with_toc_data, tables, fenced_code_blocks]
