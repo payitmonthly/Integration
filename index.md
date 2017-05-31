@@ -28,8 +28,9 @@ You need to opened a live account at [PayItMonthly](https://payitmonthly.uk). On
 ## HTML Form Based Application
 
 ```markdown
-<form action="https://payitmonthly.uk//" method="post"> 
-    <input type="hidden" name="identification_key" value="adfwt2894ahgBUDSFOHE8we9"/> 
+<form action="https://payitmonthly.uk/integration/" method="post"> 
+    <input type="hidden" name="identification_key" value="adfwt2894ahgBUDSFOHE8we9"/>
+    <input type="hidden" name="identification_version" value="0.1.0"/>
     <input type="hidden" name="goods_description" value="Photos - CD - Gold Package"/> 
     <input type="hidden" name="goods_price" value="60000"/> 
     <input type="hidden" name="finance_deposit_total" value="6000"/> 
