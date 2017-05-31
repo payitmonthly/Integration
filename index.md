@@ -21,7 +21,7 @@ If you need to contact us for any reason you can email us at [support@payitmonth
 
 ## Getting Started
 
-You need to opened a live account at [PayItMonthly](https://payitmonthly.uk). Once your account is live you can request your API key by emailing [support@payitmonthly.uk](mailto:support@payitmonthly.uk).
+You need to have opened a live account at [PayItMonthly](https://payitmonthly.uk). Once your account is live you can request your API key by emailing [support@payitmonthly.uk](mailto:support@payitmonthly.uk).
 
 ## HTML Form Based Application
 
@@ -33,8 +33,7 @@ You need to opened a live account at [PayItMonthly](https://payitmonthly.uk). On
     <input type="hidden" name="goods_price" value="60000"/> 
     <input type="hidden" name="finance_deposit_total" value="6000"/> 
     <input type="hidden" name="test_or_live" value="test"/>
-    <input type="hidden" name="finance_max_duration" value="8"/>
-    <input type="hidden" name="finance_number_of_instalments" value="10"/>
+    <input type="hidden" name="finance_max_duration" value="10"/>
     <input type="hidden" name="finance_first_payment_date" value="20170720"/>
     <input type="submit" value="Buy on Finance"/> 
 </form>
@@ -48,7 +47,7 @@ identification_key | Public API key | Yes | string |
 identification_version | Integration version number | Yes | string |
 test_or_live | This specifies which mode to operate the system in | Yes | string | test' or 'live'
 goods_description | Description of the goods/service that the customer is purchasing. This will be shown on the customers agreement | Yes | string | 
-goods_price | Price of the goods/service that the customer is purchasing in pence before the deposit is taken. The value of finance required is calculated automaticly (goods_price - finance_deposit_total) | Yes | int | Positive integer
+goods_price | Price of the goods/service that the customer is purchasing in pence before the deposit is taken. The value of finance required is calculated automatically (goods_price - finance_deposit_total) | Yes | int | Positive integer
 finance_deposit_total | Total deposit paid/to be paid by the customer in pence | Yes | int | Positive integer
 finance_number_of_instalments | Number of instalments that the customer will pay - do not include the deposit as an instalment | No | int | Between 1-12
 finance_max_duration | Maximum number of instalments/months that the customer can choose if you want it to be less than 12. This value is not used if the number of instalments is set | No | int | Between 1-12
