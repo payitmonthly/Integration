@@ -26,7 +26,7 @@ You need to have opened a live account at [PayItMonthly](https://payitmonthly.uk
 ## HTML Form Based Application
 
 ```markdown
-<form action="https://payitmonthly.uk/integration/" method="post"> 
+<form action="https://payitmonthly.uk/simple-integration/" method="post"> 
     <input type="hidden" name="identification_key" value="adfwt2894ahgBUDSFOHE8we9"/>
     <input type="hidden" name="identification_version" value="1.0.0"/>
     <input type="hidden" name="goods_description" value="Photos - CD - Gold Package"/> 
@@ -35,7 +35,7 @@ You need to have opened a live account at [PayItMonthly](https://payitmonthly.uk
     <input type="hidden" name="test_or_live" value="test"/>
     <input type="hidden" name="finance_max_duration" value="10"/>
     <input type="hidden" name="finance_first_payment_date" value="20170720"/>
-    <input type="submit" value="Buy on Finance"/> 
+    <input type="submit" value="PayItMonthly"/> 
 </form>
 ```
 
