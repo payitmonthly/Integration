@@ -47,8 +47,8 @@ identification_key | Public API key | Yes | string |
 identification_version | Integration version number | Yes | string |
 test_or_live | This specifies which mode to operate the system in | Yes | string | test' or 'live'
 goods_description | Description of the goods/service that the customer is purchasing. This will be shown on the customers agreement | Yes | string | 
-goods_price | Price of the goods/service that the customer is purchasing in pence before the deposit is taken. The value of finance required is calculated automatically (goods_price - finance_deposit_total) | Yes | int | Positive integer
-finance_deposit_total | Total deposit paid/to be paid by the customer in pence | Yes | int | Positive integer
+goods_price | Price of the goods/service that the customer is purchasing in pence before the deposit is taken. The value of finance required is calculated automatically (goods_price - finance_deposit_total) | Yes | int | Positive integer between 1200 and 1000000 
+finance_deposit_total | Total deposit paid/to be paid by the customer in pence. This is not collected by PayItMonthly and if you are not on our standard/basic product the deposit must be at least 10% of the goods_price | Yes | int | Positive integer between 0 and 1000000
 finance_number_of_instalments | Number of instalments that the customer will pay - do not include the deposit as an instalment | No | int | Between 1-12
 finance_max_duration | Maximum number of instalments/months that the customer can choose if you want it to be less than 12. This value is not used if the number of instalments is set | No | int | Between 1-12
 finance_first_payment_date | The date of the first repayment that the customer will make. If this isn't set the customer will be able to choose the date that works best for them. Each subsequent instalment will be taken on the same date each month | No | ISO 8601 | Minimum of 7 and maximum of 60 days in the future
