@@ -15,6 +15,10 @@ If you need to contact us for any reason you can email us at [support@payitmonth
 
 ## Document History
 
+***v1.1*** (26/06/2020)
+
+1. Redirect URLs added
+
 ***v1.0.0*** (30/05/2017)
 
 1. First integration launched
@@ -35,7 +39,10 @@ You need to have opened a live account at [PayItMonthly](https://payitmonthly.uk
     <input type="hidden" name="test_or_live" value="test"/>
     <input type="hidden" name="finance_max_duration" value="10"/>
     <input type="hidden" name="finance_first_payment_date" value="20170720"/>
-    <input type="submit" value="PayItMonthly"/> 
+    <input type="submit" value="PayItMonthly"/>
+    <input type="hidden" name="redirecturl_pass" value="https://www.google.com"/>
+    <input type="hidden" name="redirecturl_fail" value="https://www.fail.com"/>
+    <input type="hidden" name="redirecturl_refer" value="https://www.refer.com"/>
 </form>
 ```
 
@@ -64,6 +71,9 @@ customer_address_line_2 | Street Address | No | string |
 customer_address_line_3 | Town | No | string | 
 customer_address_line_4 | County | No | string | 
 customer_address_postcode | Postcode | No | string | 
+redirecturl_pass | URL customer returns to if they are accepted for credit | No | string | 
+redirecturl_fail | URL customer returns to if they are declined credit | No | string | 
+redirecturl_refer | URL customer returns to if they are refered for a manual check | No | string | 
 
 ### Test Bank Details
 
