@@ -37,12 +37,7 @@ You need to have opened a live account at [PayItMonthly](https://payitmonthly.uk
     <input type="hidden" name="goods_price" value="60000"/> 
     <input type="hidden" name="finance_deposit_total" value="6000"/> 
     <input type="hidden" name="test_or_live" value="test"/>
-    <input type="hidden" name="finance_max_duration" value="10"/>
-    <input type="hidden" name="finance_first_payment_date" value="20170720"/>
     <input type="submit" value="PayItMonthly"/>
-    <input type="hidden" name="redirecturl_pass" value="https://www.google.com"/>
-    <input type="hidden" name="redirecturl_fail" value="https://www.fail.com"/>
-    <input type="hidden" name="redirecturl_refer" value="https://www.refer.com"/>
 </form>
 ```
 
@@ -55,10 +50,9 @@ identification_version | Integration version number | Yes | string |
 test_or_live | This specifies which mode to operate the system in | Yes | string | test' or 'live'
 goods_description | Description of the goods/service that the customer is purchasing. This will be shown on the customers agreement | Yes | string | 
 goods_price | Price of the goods/service that the customer is purchasing in pence before the deposit is taken. The value of finance required is calculated automatically (goods_price - finance_deposit_total) | Yes | int | Positive integer between 1200 and 1000000 
-finance_deposit_total | Total deposit paid/to be paid by the customer in pence. This is not collected by PayItMonthly and if you are not on our standard/basic product the deposit must be at least 10% of the goods_price. If you need PayItMonthly to collect the deposit as part of the process contact us | Yes | int | Positive integer between 0 and 1000000
-finance_number_of_instalments | Number of instalments that the customer will pay - do not include the deposit as an instalment | No | int | Between 1-12
-finance_max_duration | Maximum number of instalments/months that the customer can choose if you want it to be less than 12. This value is not used if the number of instalments is set | No | int | Between 1-12
-finance_first_payment_date | The date of the first repayment that the customer will make. If this isn't set the customer will be able to choose the date that works best for them. Each subsequent instalment will be taken on the same date each month | No | ISO 8601 | Minimum of 7 and maximum of 60 days in the future
+finance_deposit_total | Total deposit paid/to be paid by the customer in pence. This is not collected by PayItMonthly | Yes | int | Positive integer between 0 and 1000000
+finance_number_of_instalments | Number of instalments that the customer will pay - do not include the deposit as an instalment | No | int | Between 2-12
+finance_max_duration | Maximum number of instalments/months that the customer can choose if you want it to be less than 12. This value is not used if the number of instalments is set | No | int | Between 2-12
 customer_title | Customers title | No | string | Either 'Mr.', 'Mrs.', 'Miss.', 'Ms.' or 'Dr.'
 customer_firstname | Customers firstname | No | string | 
 customer_middle_name | Customers middle name | No | string | 
@@ -74,6 +68,8 @@ customer_address_postcode | Postcode | No | string |
 redirecturl_pass | URL customer returns to if they are accepted for credit | No | string | 
 redirecturl_fail | URL customer returns to if they are declined credit | No | string | 
 redirecturl_refer | URL customer returns to if they are refered for a manual check | No | string | 
+
+Please note that if the address or contact details are not valid we will not pre-populate the form with the information and the customer will need to input them into our form.
 
 ### Test Bank Details
 
