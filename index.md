@@ -25,7 +25,7 @@ If you need to contact us for any reason you can email us at [support@payitmonth
 
 ## Getting Started
 
-You need to have opened a live account at [PayItMonthly](https://payitmonthly.uk). Once your account is live you can request your API key by emailing [support@payitmonthly.uk](mailto:support@payitmonthly.uk).
+You need to have opened an account with [PayItMonthly](https://payitmonthly.uk). Once you have opened your account you can create a Simple Integration API key [here](https://app.payitmonthly.uk/partner/admin/developers). If you have any problems creating your API key you can email us [support@payitmonthly.uk](mailto:support@payitmonthly.uk).
 
 ## HTML Form Based Application
 
