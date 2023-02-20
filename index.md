@@ -3,9 +3,9 @@ layout: "v1"
 toc: toc.html
 ---
 
-```markdown
+**
 We recommend that you use either [PayByLink](https://payitmonthly.uk](https://payitmonthly.uk/blog/news/introudcing-paybylink/) or [our API Integration](https://developer.payitmonthly.uk/) as they have more features and are more secure.
-```
+**
 
 # PayItMonthly Simple Integration
 
