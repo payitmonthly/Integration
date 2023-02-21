@@ -3,9 +3,9 @@ layout: "v1"
 toc: toc.html
 ---
 
-***We recommend that you use either [PayByLink](https://payitmonthly.uk/blog/news/introudcing-paybylink/) or [our API Integration](https://developer.payitmonthly.uk/) as they have more features and are more secure.***
-
 # PayItMonthly Simple Integration
+
+***We recommend that you use either [PayByLink](https://payitmonthly.uk/blog/news/introudcing-paybylink/) or [our API Integration](https://developer.payitmonthly.uk/) as they have more features and are more secure.***
 
 PayItMonthly enables your business to offer your customer finance. 
 
